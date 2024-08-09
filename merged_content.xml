@@ -1,0 +1,21 @@
+<merged><?xml version="1.0" encoding="UTF-8" standalone="no"?><merged-part><note>
+    <to>Jack</to>
+    <from>Elan</from>
+    <heading>Reminder</heading>
+    <body>Don't forget to complete the task!</body>
+</note><note>
+    <to>Mary</to>
+    <from>John</from>
+    <heading>Meeting</heading>
+    <body>Meeting is scheduled at 10 AM tomorrow.</body>
+</note></merged-part><?xml version="1.0" encoding="UTF-8" standalone="no"?><merged-part><note>
+    <to>Lucy</to>
+    <from>Mike</from>
+    <heading>Birthday</heading>
+    <body>Happy Birthday! Have a great year ahead.</body>
+</note><note>
+    <to>Tom</to>
+    <from>Susan</from>
+    <heading>Invitation</heading>
+    <body>You're invited to the party on Saturday.</body>
+</note></merged-part></merged>

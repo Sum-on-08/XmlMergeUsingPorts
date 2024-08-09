@@ -1,0 +1,243 @@
+2024-08-09 10:56:32 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Starting MergingUsingPortsApplication using Java 17.0.11 with PID 14364 (C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts\target\classes started by SumonBachar in C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts)
+2024-08-09 10:56:32 INFO  restartedMain c.u.m.MergingUsingPortsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-09 10:56:32 INFO  restartedMain o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-09 10:56:32 INFO  restartedMain o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-09 10:56:33 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Starting MergingUsingPortsApplication using Java 17.0.11 with PID 17720 (C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts\target\classes started by SumonBachar in C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts)
+2024-08-09 10:56:33 INFO  restartedMain c.u.m.MergingUsingPortsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-09 10:56:33 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-09 10:56:33 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-08-09 10:56:33 WARN  restartedMain o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-09 10:56:33 INFO  restartedMain o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-08-09 10:56:33 INFO  restartedMain o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 10:56:33 INFO  restartedMain o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-09 10:56:33 INFO  restartedMain o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 181 ms
+2024-08-09 10:56:33 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-08-09 10:56:33 INFO  restartedMain com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:1364e26a-e62d-4bed-9e83-3cd1bc48944b user=SA
+2024-08-09 10:56:33 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1364e26a-e62d-4bed-9e83-3cd1bc48944b'
+2024-08-09 10:56:33 INFO  restartedMain o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-09 10:56:33 INFO  restartedMain o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-09 10:56:33 INFO  restartedMain o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-09 10:56:33 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-09 10:56:33 INFO  restartedMain o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-09 10:56:33 INFO  restartedMain o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 10:56:33 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-08-09 10:56:33 WARN  restartedMain o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-08-09 10:56:33 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Started MergingUsingPortsApplication in 0.368 seconds (process running for 287.169)
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-09 10:56:33 WARN  restartedMain o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-09 10:56:33 INFO  restartedMain o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-09 10:56:33 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-09 10:56:33 INFO  restartedMain o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 10:56:33 INFO  restartedMain o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-09 10:56:33 INFO  restartedMain o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 809 ms
+2024-08-09 10:56:33 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-09 10:56:33 INFO  restartedMain com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:f1be8848-0486-4427-beab-a8616a3e3c06 user=SA
+2024-08-09 10:56:33 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-09 10:56:33 INFO  restartedMain o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:f1be8848-0486-4427-beab-a8616a3e3c06'
+2024-08-09 10:56:33 INFO  restartedMain o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-09 10:56:33 INFO  restartedMain org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-09 10:56:33 INFO  restartedMain o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-09 10:56:34 INFO  restartedMain o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-09 10:56:34 INFO  restartedMain o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-09 10:56:34 INFO  restartedMain o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 10:56:34 WARN  restartedMain o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-09 10:56:34 WARN  restartedMain o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-08-09 10:56:34 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-09 10:56:34 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-09 10:56:34 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Started MergingUsingPortsApplication in 2.097 seconds (process running for 2.564)
+2024-08-09 10:56:45 INFO  SpringApplicationShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 10:56:45 WARN  SpringApplicationShutdownHook o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-09 10:56:45 INFO  SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-08-09 10:56:45 INFO  SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-08-09 10:56:46 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Starting MergingUsingPortsApplication using Java 17.0.11 with PID 29228 (C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts\target\classes started by SumonBachar in C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts)
+2024-08-09 10:56:46 INFO  restartedMain c.u.m.MergingUsingPortsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-09 10:56:46 INFO  restartedMain o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-09 10:56:46 INFO  restartedMain o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-09 10:56:47 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-09 10:56:47 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-08-09 10:56:47 WARN  restartedMain o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-09 10:56:47 INFO  restartedMain o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-08-09 10:56:47 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-08-09 10:56:47 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-08-09 10:56:47 INFO  restartedMain o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 10:56:47 INFO  restartedMain o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-09 10:56:47 INFO  restartedMain o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-09 10:56:47 INFO  restartedMain o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 743 ms
+2024-08-09 10:56:47 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-09 10:56:47 INFO  restartedMain com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:89f977db-9799-4f95-b3a2-cffac4fb0b78 user=SA
+2024-08-09 10:56:47 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-09 10:56:47 INFO  restartedMain o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:89f977db-9799-4f95-b3a2-cffac4fb0b78'
+2024-08-09 10:56:47 INFO  restartedMain o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-09 10:56:47 INFO  restartedMain org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-09 10:56:47 INFO  restartedMain o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-09 10:56:48 INFO  restartedMain o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-09 10:56:48 INFO  restartedMain o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-09 10:56:48 INFO  restartedMain o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 10:56:48 WARN  restartedMain o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-09 10:56:48 INFO  restartedMain o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-09 10:56:48 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-08-09 10:56:48 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-08-09 10:56:48 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Started MergingUsingPortsApplication in 2.153 seconds (process running for 2.735)
+2024-08-09 10:56:55 INFO  http-nio-8080-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-09 10:56:55 INFO  http-nio-8080-exec-1 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-09 10:56:55 INFO  http-nio-8080-exec-1 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-09 10:56:55 INFO  http-nio-8080-exec-1 c.u.merging.config.LoggerConfig - Received request to merge XML files from folder: D:\xmlMergeProject\AllXML
+2024-08-09 10:56:55 INFO  http-nio-8080-exec-1 c.u.merging.config.LoggerConfig - Sending to port 8080 to http://localhost:8080/merge-xml-part
+2024-08-09 10:56:55 INFO  http-nio-8080-exec-1 c.u.merging.config.LoggerConfig - Sending to port 8082 to http://localhost:8082/merge-xml-part
+2024-08-09 10:56:55 INFO  http-nio-8082-exec-1 o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-09 10:56:55 INFO  http-nio-8082-exec-1 o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-08-09 10:56:55 INFO  http-nio-8082-exec-1 o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2024-08-09 10:56:55 INFO  http-nio-8080-exec-1 c.u.merging.config.LoggerConfig - Processing for final merge
+2024-08-09 10:56:55 INFO  http-nio-8080-exec-1 c.u.merging.config.LoggerConfig - Process completed successfully
+2024-08-09 11:01:37 WARN  http-nio-8080-exec-6 o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2024-08-09 11:03:48 INFO  SpringApplicationShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:03:48 WARN  SpringApplicationShutdownHook o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-09 11:03:48 INFO  SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-09 11:03:48 INFO  SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-09 11:03:50 INFO  File Watcher o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-09 11:03:50 INFO  Thread-1 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-08-09 11:03:50 INFO  Thread-1 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:03:50 WARN  Thread-1 o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-09 11:03:50 INFO  Thread-1 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-09 11:03:50 INFO  Thread-1 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-09 11:06:19 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Starting MergingUsingPortsApplication using Java 17.0.11 with PID 18924 (C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts\target\classes started by SumonBachar in C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts)
+2024-08-09 11:06:19 INFO  restartedMain c.u.m.MergingUsingPortsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-09 11:06:19 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Starting MergingUsingPortsApplication using Java 17.0.11 with PID 31708 (C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts\target\classes started by SumonBachar in C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts)
+2024-08-09 11:06:19 INFO  restartedMain c.u.m.MergingUsingPortsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-09 11:06:19 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-09 11:06:19 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 9 ms. Found 0 JPA repository interfaces.
+2024-08-09 11:06:19 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-09 11:06:19 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-08-09 11:06:19 WARN  restartedMain o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-09 11:06:19 INFO  restartedMain o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-08-09 11:06:19 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-08-09 11:06:19 INFO  restartedMain o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 11:06:19 INFO  restartedMain o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-09 11:06:19 INFO  restartedMain o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 178 ms
+2024-08-09 11:06:19 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+2024-08-09 11:06:19 INFO  restartedMain com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:908f44d6-87bd-4b7e-808c-612d11204766 user=SA
+2024-08-09 11:06:19 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:908f44d6-87bd-4b7e-808c-612d11204766'
+2024-08-09 11:06:19 INFO  restartedMain o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-09 11:06:19 INFO  restartedMain o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-09 11:06:19 INFO  restartedMain o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-09 11:06:19 INFO  restartedMain o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-09 11:06:19 INFO  restartedMain o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:06:19 WARN  restartedMain o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-09 11:06:19 WARN  restartedMain o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-09 11:06:19 INFO  restartedMain o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-09 11:06:19 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-08-09 11:06:19 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Started MergingUsingPortsApplication in 0.366 seconds (process running for 32.885)
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-09 11:06:19 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-09 11:06:19 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-09 11:06:19 INFO  restartedMain o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 11:06:19 INFO  restartedMain o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-09 11:06:20 INFO  restartedMain o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-09 11:06:20 INFO  restartedMain o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 847 ms
+2024-08-09 11:06:20 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-09 11:06:20 INFO  restartedMain com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:e244bc5b-eaeb-475e-8a40-578dc2f6caac user=SA
+2024-08-09 11:06:20 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-09 11:06:20 INFO  restartedMain o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:e244bc5b-eaeb-475e-8a40-578dc2f6caac'
+2024-08-09 11:06:20 INFO  restartedMain o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-09 11:06:20 INFO  restartedMain org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-09 11:06:20 INFO  restartedMain o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-09 11:06:20 INFO  restartedMain o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-09 11:06:20 INFO  restartedMain o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-09 11:06:20 INFO  restartedMain o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:06:20 WARN  restartedMain o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-09 11:06:20 WARN  restartedMain o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-08-09 11:06:20 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-09 11:06:20 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-09 11:06:20 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Started MergingUsingPortsApplication in 2.135 seconds (process running for 2.549)
+2024-08-09 11:07:07 INFO  SpringApplicationShutdownHook o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:07:07 WARN  SpringApplicationShutdownHook o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-09 11:07:07 INFO  SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-09 11:07:07 INFO  SpringApplicationShutdownHook com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-08-09 11:07:09 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Starting MergingUsingPortsApplication using Java 17.0.11 with PID 13360 (C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts\target\classes started by SumonBachar in C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts)
+2024-08-09 11:07:09 INFO  restartedMain c.u.m.MergingUsingPortsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-09 11:07:09 INFO  File Watcher o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-09 11:07:09 INFO  Thread-10 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2024-08-09 11:07:09 INFO  restartedMain o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-09 11:07:09 INFO  restartedMain o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-09 11:07:09 INFO  Thread-10 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:07:09 WARN  Thread-10 o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-09 11:07:09 INFO  Thread-10 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown initiated...
+2024-08-09 11:07:09 INFO  Thread-10 com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Shutdown completed.
+2024-08-09 11:07:09 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Starting MergingUsingPortsApplication using Java 17.0.11 with PID 31708 (C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts\target\classes started by SumonBachar in C:\Users\SumonBachar\IdeaProjects\MergingUsingPorts)
+2024-08-09 11:07:09 INFO  restartedMain c.u.m.MergingUsingPortsApplication - No active profile set, falling back to 1 default profile: "default"
+2024-08-09 11:07:09 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-09 11:07:09 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-08-09 11:07:09 WARN  restartedMain o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-09 11:07:09 INFO  restartedMain o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-08-09 11:07:09 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8082 (http)
+2024-08-09 11:07:09 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8082"]
+2024-08-09 11:07:09 INFO  restartedMain o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 11:07:09 INFO  restartedMain o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-09 11:07:09 INFO  restartedMain o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-09 11:07:09 INFO  restartedMain o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 174 ms
+2024-08-09 11:07:09 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+2024-08-09 11:07:09 INFO  restartedMain com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection conn20: url=jdbc:h2:mem:dda84f4a-8818-4147-add7-0b4ed2cd9d75 user=SA
+2024-08-09 11:07:09 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+2024-08-09 11:07:09 INFO  restartedMain o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:dda84f4a-8818-4147-add7-0b4ed2cd9d75'
+2024-08-09 11:07:09 INFO  restartedMain o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-09 11:07:09 INFO  restartedMain o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-09 11:07:09 INFO  restartedMain o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-09 11:07:09 INFO  restartedMain o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-09 11:07:09 INFO  restartedMain o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:07:09 WARN  restartedMain o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-09 11:07:09 INFO  restartedMain o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-08-09 11:07:09 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8082"]
+2024-08-09 11:07:09 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8082 (http) with context path '/'
+2024-08-09 11:07:09 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Started MergingUsingPortsApplication in 0.312 seconds (process running for 82.686)
+2024-08-09 11:07:09 INFO  restartedMain o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-08-09 11:07:09 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-09 11:07:09 INFO  restartedMain o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-08-09 11:07:09 WARN  restartedMain o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [annotationActionEndpointMapping] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-08-09 11:07:09 INFO  restartedMain o.s.w.s.a.s.AnnotationActionEndpointMapping - Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2024-08-09 11:07:10 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-08-09 11:07:10 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-08-09 11:07:10 INFO  restartedMain o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-08-09 11:07:10 INFO  restartedMain o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-09 11:07:10 INFO  restartedMain o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-08-09 11:07:10 INFO  restartedMain o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 805 ms
+2024-08-09 11:07:10 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-08-09 11:07:10 INFO  restartedMain com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:1ca43d6b-65ea-40f4-89ff-3c998b246b58 user=SA
+2024-08-09 11:07:10 INFO  restartedMain com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-08-09 11:07:10 INFO  restartedMain o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:1ca43d6b-65ea-40f4-89ff-3c998b246b58'
+2024-08-09 11:07:10 INFO  restartedMain o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-09 11:07:10 INFO  restartedMain org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-09 11:07:10 INFO  restartedMain o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2024-08-09 11:07:10 INFO  restartedMain o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-09 11:07:10 INFO  restartedMain o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-09 11:07:10 INFO  restartedMain o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:07:10 WARN  restartedMain o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-09 11:07:11 WARN  restartedMain o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-08-09 11:07:11 INFO  restartedMain o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-08-09 11:07:11 INFO  restartedMain o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-08-09 11:07:11 INFO  restartedMain c.u.m.MergingUsingPortsApplication - Started MergingUsingPortsApplication in 2.102 seconds (process running for 2.542)
+2024-08-09 11:10:22 INFO  File Watcher o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-09 11:10:22 INFO  Thread-12 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8082"]
+2024-08-09 11:10:22 INFO  Thread-12 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:10:22 WARN  Thread-12 o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-09 11:10:22 INFO  Thread-12 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown initiated...
+2024-08-09 11:10:22 INFO  Thread-12 com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Shutdown completed.
+2024-08-09 11:10:23 INFO  File Watcher o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-08-09 11:10:23 INFO  Thread-1 o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-08-09 11:10:23 INFO  Thread-1 o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-09 11:10:23 WARN  Thread-1 o.s.b.f.s.DisposableBeanAdapter - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-224]
+2024-08-09 11:10:23 INFO  Thread-1 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-08-09 11:10:23 INFO  Thread-1 com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
