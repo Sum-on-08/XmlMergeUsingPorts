@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration>
 
-    <!-- Console Appender -->
+    <!-- Console -->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
             <pattern>%-5level %d{yyyy-MM-dd HH:mm:ss} %thread %logger{36} - %msg%n%rEx</pattern>
         </encoder>
     </appender>
 
-    <!-- File Appender (optional) -->
+    <!-- File -->
     <appender name="FILE" class="ch.qos.logback.core.FileAppender">
         <file>D:/application.log</file>
         <append>false</append>
@@ -20,15 +20,14 @@
     </appender>
 
     <appender name="ROLLING_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>logs/application.log</file> <!-- Path to log file -->
+        <file>logs/application.log</file>
         <append>true</append> <!-- Append to the file, don't overwrite -->
         <encoder>
-            <!-- Define the log message format -->
             <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level %thread %logger{36} - %msg%n%rEx</pattern>
         </encoder>
         <rollingPolicy class="ch.qos.logback.core.rolling.SizeBasedRollingPolicy">
             <fileNamePattern>logs/application-%d{yyyy-MM-dd}.%i.log
-            </fileNamePattern> <!-- Archive file naming pattern -->
+            </fileNamePattern>
             <maxFileSize>10MB</maxFileSize> <!-- Maximum file size before rollover -->
             <maxHistory>1</maxHistory> <!-- Number of days to keep archived logs -->
         </rollingPolicy>

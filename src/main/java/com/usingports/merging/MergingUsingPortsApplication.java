@@ -1,4 +1,4 @@
-package com.usingports.merging;
+package com.usingports.merging;//to create a package use quadratyx.
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

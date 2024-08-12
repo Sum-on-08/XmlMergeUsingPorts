@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.io.File;
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
@@ -19,7 +20,7 @@ public class LoadBalancerService {
     @Autowired
     private Logger logger;
 
-    public String processXmlFiles(String folderPath) {
+    public String processXmlFiles(String folderPath) throws IOException {
         List<File> xmlFiles = getXmlFiles(folderPath);
         int midPoint = xmlFiles.size() / 2;
 
@@ -40,13 +41,14 @@ public class LoadBalancerService {
     }
 
     private String sendToPort(List<File> files, int port) {
-        String url = "http://localhost:" + port + "/merge-xml-part";
+        String url = "http://localhost:" + port + "/mergeXmlPart";
         logger.info("Sending to port " + port + " to " + url);
         return restTemplate.postForObject(url, files, String.class);
     }
 
-    private String finalMerge(String firstHalf, String secondHalf) {
-        String xmlContent = "<merged>" + firstHalf + secondHalf + "</merged>";
+    private String finalMerge(String firstHalf, String secondHalf) throws IOException {
+        String xmlContent = " <merged>" + firstHalf + secondHalf + "</merged>";
+        logger.info(xmlContent);
         return xmlContent;
     }
 }

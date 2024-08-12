@@ -14,7 +14,7 @@ public class XmlMergePartController {
     @Autowired
     private XmlMergeService xmlMergeService;
 
-    @PostMapping("/merge-xml-part")
+    @PostMapping("/mergeXmlPart")
     public String mergeXmlPart(@RequestBody List<String> filePaths) {
         List<File> files = filePaths.stream().map(File::new).toList();
         return xmlMergeService.mergeXmlFiles(files);
