@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class LoadBalancerService {
@@ -43,12 +44,15 @@ public class LoadBalancerService {
     private String sendToPort(List<File> files, int port) {
         String url = "http://localhost:" + port + "/mergeXmlPart";
         logger.info("Sending to port " + port + " to " + url);
+//        List<String> filePaths = files.stream()
+//                .map(File::getPath)
+//                .toList(); covert to string format
         return restTemplate.postForObject(url, files, String.class);
     }
 
     private String finalMerge(String firstHalf, String secondHalf) throws IOException {
         String xmlContent = " <merged>" + firstHalf + secondHalf + "</merged>";
         logger.info(xmlContent);
-        return xmlContent;
+        return xmlContent.replaceAll("\\s+", "");
     }
 }
